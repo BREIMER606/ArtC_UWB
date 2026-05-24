@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Modelos entrenados
+models/*.pth
+models/*.pkl
+models/*.h5
+models/*.joblib
+!models/.gitkeep
+
+# Archivos del sistema
+.env
+.envrc
+*.log
+*.pyc
+
+# Directorios temporales
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+tmp/
+temp/
