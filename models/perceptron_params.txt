@@ -1,0 +1,5 @@
+R² score: 0.9998
+Capas: (128, 64, 32)
+Iteraciones: 16
+Pérdida final: 0.000088
+Muestras entrenamiento: 18332

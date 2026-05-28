@@ -1,0 +1,17 @@
+name: artc_uwb
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+    - torch
+    - optuna
+    - jupyter
+    - jupyterlab
